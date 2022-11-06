@@ -20,7 +20,7 @@ Golang
 \
 &nbsp;
 
-### Smart Contract
+## Smart Contract
 
 **Polygon**\
 PaymentVault - [code link](https://mumbai.polygonscan.com/address/0xF91B6cAbc16A7440f22Dbd0481257ADDCACd689A#code)\
