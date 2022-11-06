@@ -30,7 +30,7 @@ PaymentLedger - [code link](https://mumbai.polygonscan.com/address/0x9F295AbC9E8
 &nbsp;
 ## zkApps
 
-NFT Ownership proof without releasing privacy built on Mina Protocol [link](https://docs.minaprotocol.com/)
+NFT Ownership proof without releasing privacy built on Mina Protocol ([link](https://docs.minaprotocol.com/)) and the Graph ([link](https://thegraph.com/en/))
 
 
 \
