@@ -1,0 +1,14 @@
+Debug:
+  Enable: true
+  Verbose: true
+DB:
+  Host: 127.0.0.1
+  Port: 33061
+  User: veric_backend_mvp
+  Password: password
+  DbName: veric_backend_mvp
+HTTP:
+  Listen: 0.0.0.0
+  Port: 8080
+Rpc:
+  AccountPriKey: ....

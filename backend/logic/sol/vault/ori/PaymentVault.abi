@@ -1,0 +1,150 @@
+[
+    {
+        "inputs": [],
+        "stateMutability": "nonpayable",
+        "type": "constructor"
+    },
+    {
+        "name": "Deposited",
+        "anonymous": false,
+        "type": "event",
+        "inputs": [
+            {
+                "indexed": true,
+                "type": "address",
+                "internalType": "address",
+                "name": "_who"
+            },
+            {
+                "indexed": true,
+                "internalType": "address",
+                "type": "address",
+                "name": "_tokenAddress"
+            },
+            {
+                "internalType": "uint256",
+                "indexed": true,
+                "type": "uint256",
+                "name": "_amount"
+            }
+        ]
+    },
+    {
+        "anonymous": false,
+        "type": "event",
+        "name": "OwnershipTransferred",
+        "inputs": [
+            {
+                "type": "address",
+                "internalType": "address",
+                "name": "previousOwner",
+                "indexed": true
+            },
+            {
+                "internalType": "address",
+                "indexed": true,
+                "type": "address",
+                "name": "newOwner"
+            }
+        ]
+    },
+    {
+        "anonymous": false,
+        "inputs": [
+            {
+                "internalType": "address",
+                "name": "_who",
+                "indexed": true,
+                "type": "address"
+            },
+            {
+                "internalType": "address",
+                "indexed": true,
+                "name": "_tokenAddress",
+                "type": "address"
+            },
+            {
+                "indexed": true,
+                "name": "_amount",
+                "type": "uint256",
+                "internalType": "uint256"
+            }
+        ],
+        "type": "event",
+        "name": "Withdrawn"
+    },
+    {
+        "inputs": [],
+        "stateMutability": "view",
+        "type": "function",
+        "outputs": [
+            {
+                "name": "",
+                "type": "address",
+                "internalType": "address"
+            }
+        ],
+        "name": "owner"
+    },
+    {
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "inputs": [],
+        "type": "function",
+        "name": "renounceOwnership"
+    },
+    {
+        "name": "transferOwnership",
+        "inputs": [
+            {
+                "type": "address",
+                "internalType": "address",
+                "name": "newOwner"
+            }
+        ],
+        "type": "function",
+        "outputs": [],
+        "stateMutability": "nonpayable"
+    },
+    {
+        "name": "deposit",
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "type": "function",
+        "inputs": [
+            {
+                "name": "token_",
+                "type": "address",
+                "internalType": "contract IERC20"
+            },
+            {
+                "type": "uint256",
+                "internalType": "uint256",
+                "name": "amount_"
+            }
+        ]
+    },
+    {
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "inputs": [
+            {
+                "type": "address",
+                "name": "token_",
+                "internalType": "contract IERC20"
+            },
+            {
+                "name": "recipient_",
+                "type": "address",
+                "internalType": "address"
+            },
+            {
+                "type": "uint256",
+                "internalType": "uint256",
+                "name": "amount_"
+            }
+        ],
+        "type": "function",
+        "name": "withdraw"
+    }
+]
